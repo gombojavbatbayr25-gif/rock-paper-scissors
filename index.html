@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-box">
+        <h1>✊ 📄 ✂ Rock Paper Scissors</h1>
+
+        <p id="round">Раунд: 1 / 5</p>
+
+        <div class="choices">
+            <button onclick="play('rock')">✊ Чулуу</button>
+            <button onclick="play('paper')">📄 Даавуу</button>
+            <button onclick="play('scissors')">✂ Хайч</button>
+        </div>
+
+        <p id="result">Сонголтоо хийнэ үү</p>
+        <p id="score">Тоглогч: 0 | Компьютер: 0</p>
+
+        <button class="restart" onclick="restartGame()">🔄 Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
